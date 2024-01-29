@@ -1,0 +1,31 @@
+/* UniversityList.css */
+
+.university-list-container {
+    background-color: linear-gradient(#f4f5f7, #e4e6e8);
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    transform: translateY(0);
+    transition: transform .3s ease-in-out;
+  }
+  
+  .university-list-container:hover {
+    transform: translateY(-5px);
+  }
+  
+  .heading-3d {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #007bff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    outline: 1px solid #007bff;
+  }
+  
+  .university-item {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    padding: 5px 10px;
+  }
+  
